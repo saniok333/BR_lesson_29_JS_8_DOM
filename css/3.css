@@ -1,0 +1,30 @@
+.wraper {
+    border: 1px solid black;
+    width: 130px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.wraper>div {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
